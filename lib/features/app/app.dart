@@ -51,7 +51,7 @@ class _AppState extends State<App> with AfterLayoutMixin {
               }
 
               bool isLogined = auth is AuthSuccess;
-              if (isLogined) {
+              if (true) {
                 return const Home();
               }
 

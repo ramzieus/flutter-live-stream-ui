@@ -87,24 +87,24 @@ class _HomeState extends State<Home> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       _buildItemBottomBar(
-                        inActiveIcon: PhosphorIcons.houseLight,
-                        activeIcon: PhosphorIcons.houseFill,
+                        inActiveIcon: PhosphorIcons.house(PhosphorIconsStyle.light),
+                        activeIcon: PhosphorIcons.house(PhosphorIconsStyle.fill),
                         index: 0,
                       ),
                       _buildItemBottomBar(
-                        inActiveIcon: PhosphorIcons.magnifyingGlassLight,
-                        activeIcon: PhosphorIcons.magnifyingGlassBold,
+                        inActiveIcon: PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.light),
+                        activeIcon: PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.fill),
                         index: 1,
                       ),
                       const Expanded(child: SizedBox()),
                       _buildItemBottomBar(
-                        inActiveIcon: PhosphorIcons.chatTeardropDotsLight,
-                        activeIcon: PhosphorIcons.chatTeardropDotsFill,
+                        inActiveIcon: PhosphorIcons.chatTeardropDots(PhosphorIconsStyle.light),
+                        activeIcon: PhosphorIcons.chatTeardropDots(PhosphorIconsStyle.fill),
                         index: 3,
                       ),
                       _buildItemBottomBar(
-                        inActiveIcon: PhosphorIcons.userCircleLight,
-                        activeIcon: PhosphorIcons.userCircleFill,
+                        inActiveIcon: PhosphorIcons.userCircle(PhosphorIconsStyle.light),
+                        activeIcon: PhosphorIcons.userCircle(PhosphorIconsStyle.fill),
                         index: 4,
                       ),
                     ],
@@ -125,7 +125,7 @@ class _HomeState extends State<Home> {
                   shape: BoxShape.circle,
                 ),
                 child: Icon(
-                  PhosphorIcons.plusBold,
+                  PhosphorIcons.plus(PhosphorIconsStyle.bold),
                   size: 20.sp,
                   color: mCL,
                 ),

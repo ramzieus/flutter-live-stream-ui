@@ -53,17 +53,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 Row(
                   children: [
                     ButtonCircle(
-                      icon: PhosphorIcons.moonLight,
+                      icon: PhosphorIcons.moon(PhosphorIconsStyle.light),
                       onTap: () {},
                     ),
                     SizedBox(width: 8.sp),
                     ButtonCircle(
-                      icon: PhosphorIcons.bellLight,
+                      icon: PhosphorIcons.bell(PhosphorIconsStyle.light),
                       onTap: () {},
                     ),
                     SizedBox(width: 8.sp),
                     ButtonCircle(
-                      icon: PhosphorIcons.magnifyingGlassLight,
+                      icon: PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.light),
                       onTap: () {},
                     ),
                   ],

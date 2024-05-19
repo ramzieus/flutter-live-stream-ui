@@ -25,7 +25,7 @@ class ButtonCircle extends StatelessWidget {
         ),
         padding: EdgeInsets.all(7.sp),
         child: Icon(
-          icon ?? PhosphorIcons.moonLight,
+          icon ?? PhosphorIcons.moon(PhosphorIconsStyle.light),
           color: Colors.white,
           size: 18.sp,
         ),

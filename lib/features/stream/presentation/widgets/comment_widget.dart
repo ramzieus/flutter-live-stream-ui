@@ -96,7 +96,7 @@ class _CommentWidgetsState extends State<CommentWidgets> {
                                   color: Colors.purple.shade400,
                                   borderRadius: BorderRadius.circular(100.sp)),
                               child: Icon(
-                                PhosphorIcons.paperPlaneTiltBold,
+                                PhosphorIcons.paperPlaneTilt(PhosphorIconsStyle.fill),
                                 size: 16.0.sp,
                                 color: Colors.white,
                               ),

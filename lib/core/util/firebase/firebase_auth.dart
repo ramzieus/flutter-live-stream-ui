@@ -51,7 +51,7 @@ Future<SocialValue?> signInWithFacebook({
     switch (result.status) {
       case LoginStatus.success:
         final facebookAuthCredential =
-            FacebookAuthProvider.credential(result.accessToken!.token);
+            FacebookAuthProvider.credential(result.accessToken!.tokenString);
         final firebaseUserCredential = await FirebaseAuth.instance
             .signInWithCredential(facebookAuthCredential);
         return SocialValue(

@@ -173,7 +173,7 @@ class LiveStreamCard extends StatelessWidget {
                     child: Container(
                       color: Colors.transparent,
                       child: Icon(
-                        PhosphorIcons.dotsThreeVerticalFill,
+                        PhosphorIcons.dotsThreeVertical(PhosphorIconsStyle.fill),
                         size: 20.sp,
                         color: fCL,
                       ),

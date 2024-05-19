@@ -79,7 +79,7 @@ class _AuthorMessageCardState extends State<AuthorMessageCard> {
                     color: Colors.grey.withOpacity(0.28),
                   ),
                   child: Icon(
-                    PhosphorIcons.pushPinFill,
+                    PhosphorIcons.pushPin(PhosphorIconsStyle.fill),
                     size: 16.0.sp,
                   ))
               : const SizedBox(),
