@@ -322,7 +322,7 @@ class BaseRemoteData {
       // Overrides any HTTP directive to delete entry past this duration.
       // Useful only when origin server has no cache config or custom behaviour is desired.
       // Defaults to [null].
-      maxStale: const Duration(milliseconds: connectTimeOut),
+      maxStale: connectTimeOut,
       // Default. Allows 3 cache sets and ease cleanup.
       priority: CachePriority.normal,
       // Default. Body and headers encryption with your own algorithm.

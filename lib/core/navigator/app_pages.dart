@@ -80,7 +80,7 @@ class AppNavigator extends RouteObserver<PageRoute<dynamic>> {
 
       default:
         return _buildRoute(
-          settings.copyWith(name: Routes.rootRoute),
+          settings = RouteSettings(name: Routes.rootRoute, arguments: settings.arguments),
           const Home(),
         );
     }
